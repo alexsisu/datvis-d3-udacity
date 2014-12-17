@@ -1,3 +1,10 @@
+The Visualization is important. Picture means thousands word is no
+joke.Data Visualization is about how we turned raw data, number in table,
+row, or columns, to visuals. It's about how we use visualization
+presented with right kind of plot or colors.It takes our creativity to
+makes visualization that is interesting, simpler, but also
+understandable.
+
 There is an experience that I have with data visualization. I once audit
 data from OpenStreetMap, the open source powered for map navigation. I
 downloaded whole map of jakarta in JOSM file, and began to audit the
@@ -8,13 +15,6 @@ I'm not audit the file correctly, and show me the visualization of the
 map that I have audit. I make mistakes. So Visualization is important to
 get insight of the data. But it also important to visualize again after
 you do something with it.
-
-The Visualization is important. Picture means thousands word is no
-joke.Data Visualization is about how we turned raw data, number in table,
-row, or columns, to visuals. It's about how we use visualization
-presented with right kind of plot or colors.It takes our creativity to
-makes visualization that is interesting, simpler, but also
-understandable.
 
 Cole Nussbaumer, Founder of storrytellingwithdata.com, said that Data
 Visualization is about how we turned number into picture and stories.
@@ -54,7 +54,21 @@ Designer](http://vizwiz.blogspot.com/2013/01/alberto-cairo-three-steps-to-become
 It really is how we ask interesting quesions about the data. Even if the
 data simple, only containing two data points, it still can substract
 effective information.
-Get intersting thing to extract slope. Plot two data points.
-Comparison of groups
+
+Common mistake is that we put too much thinking of our model/analysis,
+but doesn't give too much thinking for visualization. It's like when you
+code tons of lines of code, but because lack of documentations, nobody
+would use it. It's the same for analysis/model. If your visualization
+isn't that good, people won't understand your work and it's pretty much
+useless. Data Visualization also a beatiful merge of arts and science.
+You may have code intensively, but you also want it how turn those codes, result,
+number to visual. How creative you are, how you choose plot kinds and
+colors.
+
+It also important to know which are the current ranking of your skills
+at Designer,Engineer, and Story Teller. Here's my current ranking:
+
+![jpeg](../galleries/lesson1/1.jpg)
+
 
 
