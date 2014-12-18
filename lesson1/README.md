@@ -1,13 +1,3 @@
-  <!-- 
-  .. title: Fundamentals of Data Visualization
-  .. slug: fundamentals-data-visualization-ud507 
-  .. date: 2014-11-18 15:23:02 UTC+07:00
-  .. tags: Data Visualization,Udacity 
-  .. link: 
-  .. description: 
-  .. type: text
-  -->
-
 The Visualization is important. Picture means thousands word is no
 joke.Data Visualization is about how we turned raw data, number in table,
 row, or columns, to visuals. It's about how we use visualization
