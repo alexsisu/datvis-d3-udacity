@@ -55,4 +55,50 @@ users request, so it can request data in JSON throught AJAX to the
 server, then the server will give data json as a response, and use the
 data with the Javascript function that reside in HTML file.
 
+For Bar Chart, you may want to look at [Mike Bostock's Tutorial on
+d3](http://bost.ocks.org/mike/bar/)
+
+Because D3 using Javascript, it relies on callback function to call a
+draw function after all the data has been loaded.
+
+  var x = d3.scale.linear()
+      .range([0, width]);
+  x.domain([0, d3.max(data, function(d) { return d.value; })]);
+
+Here the we have assign x with scale object. the d3.max will choose max
+value from array based on "natural order". But because we have
+predefined the function, which takes x as an object and max of each of
+the data's "value", then d3.max will use the function to find max of
+"value".All of these code is what I copy paste from Mike Bostock's
+Tutorial, which the link I've given earlier. You should check the
+tutorial.
+
+  var bar = chart.selectAll("g")
+      .data(data)
+    .enter().append("g")
+      .attr("transform", function(d, i) { return "translate(0," + i * barHeight + ")"; });
+
+While in this section, the chart select all g elements, attach given
+data to all "g" elements selected. Then enter each of the data in the
+array, if there's no corresponding data to "g", append "g". Finally
+alter the attribute by doing transform, provided manually the given
+function.And thus how we initialize the our bar chart.
+
+  bar.append("rect")
+      .attr("width", function(d) { return x(d.value); })
+      .attr("height", barHeight - 1);
+
+  bar.append("text")
+      .attr("x", function(d) { return x(d.value) - 3; })
+      .attr("y", barHeight / 2)
+      .attr("dy", ".35em")
+      .text(function(d) { return d.value; });
+
+To alter the attribute, such as adding rect bar and text to all the
+data. These are the code that's been using.
+
+> **REFERENCE** :
+
+> * https://www.udacity.com/course/viewer#!/c-ud507
+> * http://bost.ocks.org/mike/bar/
 
