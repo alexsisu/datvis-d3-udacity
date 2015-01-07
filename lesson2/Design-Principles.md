@@ -3,7 +3,7 @@ visualization. We will perform metrics that can help the effectiveness
 of your graphics. We also dig deep into the problems adressed for using
 charts and graphics. And we also explore how D3 can engage users more.
 
-![jpeg](../galleries/design-dimple-2a/1a.jpeg)
+![jpeg](../galleries/design-dimple-2a/1.jpg)
 
 In my last
 [blog](http://napitupulu-jon.appspot.com/posts/fundamentals-data-visualization-ud507.html),
@@ -12,7 +12,7 @@ graphic of your data. While Encoding perform as the text, like in
 narrative story that you have, the Encoding is the noun,verb,adjective
 that you have.
 
-![jpeg](../galleries/design-dimple-2a/2a.jpeg)
+![jpeg](../galleries/design-dimple-2a/2.jpg)
 
 In this blog a chart is given in much constrained way. Chart is a
 smaller subset of conventions that are found for combining Visual
@@ -21,7 +21,7 @@ folowwing familliar pattern found in most Visual Encoding out there
 today.
 
 
-![jpeg](../galleries/design-dimple-2a/3a.jpeg)
+![jpeg](../galleries/design-dimple-2a/3.jpg)
 
 
 For Data Visualization newbie, this image is a great place to start. It
@@ -35,7 +35,7 @@ that is what matter. You can ask someone that is new to your data and
 have feedback from him.
 
 
-![jpeg](../galleries/design-dimple-2a/4a.jpeg)
+![jpeg](../galleries/design-dimple-2a/4.jpg)
 
 For Data Journalist, they focus on whichever complex the model of the
 visualization to tell their data the most. But for Data Scientist,
@@ -45,7 +45,7 @@ can represent the data the most. Carefully pick based on data, columns,
 and variables that he has.
 
 
-![jpeg](../galleries/design-dimple-2a/5a.jpeg)
+![jpeg](../galleries/design-dimple-2a/5.jpg)
 
 Chart is part of visuals encoding that we add some variables and
 describe its relationship, make a chart. Scatter plot is one of example
@@ -67,7 +67,7 @@ capture the trends of the data, use line plot. If you're in time-series
 and want to observe variable in categorical group, use multi-line chart.
 
 
-![jpeg](../galleries/design-dimple-2a/6a.jpeg)
+![jpeg](../galleries/design-dimple-2a/6.jpg)
 
 For Small Multiple,it facet your graph into multiple instances. Each
 instance has one graph for each category of your particular variable.
@@ -93,7 +93,7 @@ EDA. For Data Visualization, you can also use those as long as it's easy
 to digest.
 
 
-![jpeg](../galleries/design-dimple-2a/7a.jpeg)
+![jpeg](../galleries/design-dimple-2a/7.jpg)
 
 Keep in mind that you always have to be careful when labeling your data.
 Here in the label we have x-axis label, y-axis label, the title, and the
@@ -117,16 +117,16 @@ particular variable. I can see the mean,median, 1st and 3rd quarter to
 see which weighted more, and also detect the outliers of my data.
 
 
-![jpeg](../galleries/design-dimple-2a/8a.jpeg)
+![jpeg](../galleries/design-dimple-2a/8.jpg)
 
 
-![jpeg](../galleries/design-dimple-2a/9a.jpeg)
+![jpeg](../galleries/design-dimple-2a/9.jpg)
 
 Think about the data type and the relationships before choosing Visual
 Encoding, the chart type.
 
 
-![jpeg](../galleries/design-dimple-2a/10a.jpeg)
+![jpeg](../galleries/design-dimple-2a/10.jpg)
 
 Tables represent as a lookup table between the the key and the value.
 Usually we use Tables when we don't have any structured or hierarchyj of
@@ -135,7 +135,7 @@ tables, we can use map to plot any value based on location. Here the map
 is US states which the person live in location, color depends on what
 their race are.
 
-![jpeg](../galleries/design-dimple-2a/11a.jpeg)
+![jpeg](../galleries/design-dimple-2a/11.jpg)
 
 There are also other kind of map. We can use any geographical context
 along with other visual encodings, such as color, size, or shape.
@@ -160,7 +160,7 @@ achieve pre-atentive attributes.
 
 **Negative Spaces**
 
-![jpeg](../galleries/design-dimple-2a/12a.jpeg)
+![jpeg](../galleries/design-dimple-2a/12.jpg)
 
 There are also negative spaces that you can use to convey your data.This
 Dog Care Veterinary logo use negative spaces form a face of a dog.
@@ -254,7 +254,7 @@ courses, Udacity:
 * shading or 3D perspectives
 
 
-![jpeg](../galleries/design-dimple-2a/13a.jpeg)
+![jpeg](../galleries/design-dimple-2a/13.jpg)
 
 Data-ink ratio means the ratio which we need the ink to describe the
 data, over everything else. We want it to have high ratio, means as
@@ -262,7 +262,7 @@ little as it can be, compared to low ratio. Anything that can't
 explained be explained much would be considered junk.
 
 
-![jpeg](../galleries/design-dimple-2a/14a.jpeg)
+![jpeg](../galleries/design-dimple-2a/14.jpg)
 
 For this graph we reduce the ink to couple of things:
 
@@ -280,7 +280,7 @@ You can see animated graph for image above
 [here](http://darkhorseanalytics.com/blog/data-looks-better-naked/).
 
 
-![jpeg](../galleries/design-dimple-2a/15a.jpeg)
+![jpeg](../galleries/design-dimple-2a/15.jpg)
 
 Lie Factor is the terms that you use when you tries to hide some of the
 information of your data. Your data may have some noise that isn't worth
@@ -372,7 +372,7 @@ requirements and the structure of the data itself. For Designers, they
 can only care about the aesthetics of the graphics. For the engineers,
 what they care about is the manipulation of the data.
 
-![jpeg](../galleries/design-dimple-2a/16a.jpeg)
+![jpeg](../galleries/design-dimple-2a/16.jpg)
  
 This pipeline here works beautifully with D3 Chainable API. Here we know
 how the pipeline works a grammar. As earlier we discussed, the grammar
@@ -397,7 +397,7 @@ either it's rectangle or else.
 
 d3.attr() we can modify the attributes of our graph (e.g. bar for bar chart) and return another selection that we can keep modifying. 
 
-![jpeg](../galleries/design-dimple-2a/17a.jpeg)
+![jpeg](../galleries/design-dimple-2a/17.jpg)
 
 > **RESOURCES**:
 
